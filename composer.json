@@ -1,0 +1,15 @@
+{
+  "name": "imujjwal96/phickle",
+  "authors": [
+    {
+      "name": "Ujjwal Bhardwaj",
+      "email": "ujjwalb1996@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Phickle\\Core\\": "Application/Core/",
+      "Phickle\\Models\\": "Application/Models/"
+    }
+  }
+}
