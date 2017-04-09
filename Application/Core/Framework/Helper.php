@@ -9,7 +9,8 @@ class Helper
         'Config',
         'DatabaseFactory',
         'Redirect',
-        'Request'
+        'Request',
+        'Session'
     ];
     private $namespace = 'Phickle\Core\Helpers\\';
 

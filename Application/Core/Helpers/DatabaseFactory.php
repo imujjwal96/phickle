@@ -33,9 +33,9 @@ class DatabaseFactory
                 );
                 $this->database->setAttribute(\PDO::ATTR_EMULATE_PREPARES, false);
             } catch (\PDOException $e) {
-                echo 'Database connection can not be established. Please try again later.' . '<br>';
-                echo 'Error code: ' . $e->getCode();
-                exit;
+              //  echo 'Database connection can not be established. Please try again later.' . '<br>';
+              //  echo 'Error code: ' . $e->getCode();
+              //  exit;
             }
         }
         return $this->database;

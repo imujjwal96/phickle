@@ -6,7 +6,7 @@ class Model
 {
     private static $models;
     private $list = [
-
+        'User'
     ];
     private $namespace = 'Phickle\Models\\';
 
